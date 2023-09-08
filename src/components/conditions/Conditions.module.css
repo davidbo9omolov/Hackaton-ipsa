@@ -1,0 +1,64 @@
+
+.conditions{
+    position: relative;
+    border-bottom: 1px solid var(--primary-text-color);
+}
+.title{
+    color: var(--primary-text-color);
+    margin: 20px 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.conditionNum{
+    color:var(--primary-text-color);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Mak;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 30px;
+}
+.wrapperCondotion{
+    display: flex;
+    align-items: center;
+   padding: 2.5rem;
+}
+.conditionText{
+    font-family: var(--primary-font);
+
+    font-size: 16px;
+    margin-top: 5px;
+    color:var(--primary-text-color);
+}
+.Margin1{
+    margin: 0;
+}
+.Margin2{
+    margin-left: 15%;
+}
+.Margin3{
+    margin-left: 30%;
+}
+@media only screen and (max-width: 1000px) {
+    .Margin1{
+        margin: 0;
+    }
+    .Margin2{
+        margin:0;
+    }
+    .Margin3{
+        margin:0;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+
+.conditionText{
+    font-size: 12px;
+}
+}

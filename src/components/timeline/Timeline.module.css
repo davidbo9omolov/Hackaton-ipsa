@@ -1,0 +1,204 @@
+
+.timeline{
+    position: relative;
+    height: 100%;
+    border-bottom: 1px solid var(--primary-text-color);
+}
+.title{
+    color: var(--primary-text-color);
+    margin: 20px 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.lines{
+    width: 100vw;
+    height: auto;
+    transition: transform 1s ease;
+}
+.lineContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+}
+.lineFirst{
+    transition:1s all ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    top:-20%;
+    left: 19%;
+}
+.lineSecond{
+    transition:1s all ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    top:4%;
+    left: 45%;
+}
+.lineThird{
+    transition:1s all ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    top:-.5%;
+    left: 65%;
+}
+.lineFourth{
+    transition:1s all ease;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    top: -10%;
+    left: 81%;
+}
+.circleOne{
+    position: absolute;
+    transform: rotate(90deg) scale(1.05);
+    top: -40%;
+    right: -30%;
+    z-index: -1;
+    width: 50vw;
+    height: auto;
+    min-width: 450px;
+}
+.circleTwo{
+    position: absolute;
+    transform: rotate(-90deg) scale(2.1);
+    top: 78%;
+    left: -15%;
+    z-index: -1;
+    width: 30vw;
+    height: auto;
+    min-width: 450px;
+    max-width: 550px;
+}
+.dot{
+    background-color: var(--secondary-background-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.line{
+    background-color: var(--secondary-background-color);
+    width: 1px;
+    height: 40%;
+}
+.info{
+    color:var(--primary-text-color);
+}
+.mobileWrapper{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 1000px) {
+   .mobileWrapper{
+       overflow: hidden;
+   }
+    .lines {
+        transform: rotate(15deg) scale(1.2);
+    }
+    .lineFirst{
+        top:-23%;
+        left: 18.3%;
+    }
+    .lineSecond{
+        top:3%;
+        left: 38%;
+    }
+    .lineThird{
+        top:5%;
+        left: 62%;
+    }
+    .lineFourth{
+        top: 10%;
+        left: 81%;
+    }
+    .info{
+        font-size: 11px;
+    }
+}
+@media (max-width: 700px) {
+    .lines {
+        transform: rotate(30deg) scale(1.45);
+    }
+    .lineFirst{
+        top:-23%;
+        left: 18%;
+    }
+    .lineSecond{
+        top:3%;
+        left: 38%;
+    }
+    .lineThird{
+        top:20%;
+        left: 60%;
+    }
+    .lineFourth{
+        top: 30%;
+        left: 80%;
+    }
+    .info{
+        font-size: 8px;
+    }
+    .circleOne{
+        right: -55%;
+        top: -40%;
+        min-width: 500px;
+    }
+    .circleTwo{
+        left: -35%;
+        top: 80%;
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lineFirst{
+        top:-23%;
+        left: 15%;
+    }
+    .lineSecond{
+        top:3%;
+        left: 28%;
+    }
+    .lineThird{
+        top:20%;
+        left: 49%;
+    }
+    .lineFourth{
+        top: 30%;
+        left: 70%;
+    }
+    .circleOne{
+        right: -80%;
+        top: -40%;
+        min-width: 500px;
+    }
+    .circleTwo{
+        left: -60%;
+        top: 80%;
+        min-width: 250px;
+    }
+}

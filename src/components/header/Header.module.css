@@ -1,0 +1,33 @@
+
+
+.header{
+    background-color: var(--primary-background-color);
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid var(--secondary-background-color);
+    z-index: 10;
+}
+.logo{
+    width: 4.5vw;
+    margin: 5px 0;
+    height: auto;
+    min-width: 50px;
+}
+
+.navLinks{
+    color: var(--primary-text-color);
+    padding: 10px;
+   font-size:15px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+.navLinks{
+    font-size:11px;
+    margin: 0 10px;
+}
+    .navElem{
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: var(--primary-background-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main{
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+   --primary-background-color: #000;
+  --secondary-background-color: #fff;
+  --secondary-transparent-color: rgba(255, 255, 255, 0.5);
+
+  --primary-text-color: #fff;
+
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Monoton', cursive;
+}

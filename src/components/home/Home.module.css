@@ -1,0 +1,112 @@
+
+
+.home{
+    height: 100vh;
+    border-bottom: 1px solid var(--secondary-background-color);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: fit-content;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.arrow{
+    margin-left: 20px;
+   margin-top: 10px;
+}
+.arrowMobile{
+    width:55px;
+    height: auto;
+    display: none;
+}
+.title{
+    color: var(--primary-text-color);
+   font-family: var(--primary-font);
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+    padding-right: 10px;
+    margin-left: 25px;
+}
+.blockTextWrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.authors{
+    width: 143%;
+    color:var(--primary-text-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    text-align: right;
+}
+.year{
+   font-family:'Mak';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.mobileTransitionBlock{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 83.333333%;
+}
+.marginWrapperMobile{
+    margin-right:1.5rem;
+}
+@media only screen and (max-width: 1600px) {
+    .blockTextWrapper{
+        flex-wrap: nowrap;
+    }
+    .title{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper{
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+    .blockTextWrapper{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        font-size: 80px;
+    }
+    .arrowMobile{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    .mobileTransitionBlock{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .authors{
+        width: 100%;
+        text-align: center;
+    }
+    .marginWrapperMobile{
+         margin:0;
+    }
+}

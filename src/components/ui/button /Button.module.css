@@ -1,0 +1,20 @@
+.registration{
+    color: #FFFFFF;
+    margin-bottom: 75px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 45px;
+    border: 1px solid #FFF;
+    padding: 5px 18px;
+    background: linear-gradient(103deg, #F9BA19 -29.31%, #DD295F 101.21%);
+    box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.30);
+}
+.registration:hover{
+    background: #FFFFFF3F;
+}
+
+@media only screen and (max-width: 1000px) {
+    .registration{
+       margin-top: 150px;
+    }
+}
