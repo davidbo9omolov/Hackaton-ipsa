@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    z-index: 0;
 }
 
 .navLinks{
@@ -47,6 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 0;
 }
 .mobileIcons{
     display: flex;
