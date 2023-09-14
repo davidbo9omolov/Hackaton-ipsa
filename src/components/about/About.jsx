@@ -20,7 +20,6 @@ const About = () => {
                         </p>
                     </div>
                     <div className={styles.aboutImageBlock}>
-                        <img src={about} alt='about' className={styles.icon}/>
                     </div>
                 </div>
             </div>

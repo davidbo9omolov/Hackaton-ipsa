@@ -29,10 +29,11 @@
 .speakerDescription{
  color: var(--primary-text-color);
     opacity: 80;
-    font-size: 16px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    font-family:var(--primary-font);
 }
 .Reverse{
     flex-direction: row-reverse;

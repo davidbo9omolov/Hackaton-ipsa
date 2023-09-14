@@ -2,7 +2,7 @@
 .dropBlock{
   background-color: var(--primary-background-color);
     position: absolute;
-    height:calc(100vh + 50px);
+    height:110vh;
     width: 100%;
     display: none;
     transform: translateY(-120%);

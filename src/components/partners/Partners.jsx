@@ -1,9 +1,8 @@
 import {useState,useEffect} from "react";
 import ParntersLorem from "../../assets/images/InfoPartnersLorem.png";
+import {Carousel} from "flowbite-react";
 
 import styles from './Partners.module.css';
-
-import {Carousel} from "flowbite-react";
 
 
 const partners=[

@@ -17,7 +17,7 @@
 .footerIcon{
     width: 5vw;
     height: auto;
- margin: 0 20px;
+ margin: 0 10px;
 }
 .footerSocial{
     fill: #fff;
@@ -90,7 +90,7 @@
     display: none;
 }
     .footerIcon{
-        width: 6vw;
+        width: 15vw;
     }
     .footerSocial{
         width: 25px;

@@ -68,6 +68,9 @@
 .marginWrapperMobile{
     margin-right:1.5rem;
 }
+.registration{
+    margin-left: 30px;
+}
 @media only screen and (max-width: 1600px) {
     .blockTextWrapper{
         flex-wrap: nowrap;
