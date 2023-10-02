@@ -1,7 +1,7 @@
 
 .timeline{
     position: relative;
-    height: 100%;
+    display: flex;
     border-bottom: 1px solid var(--primary-text-color);
 }
 .title{
@@ -34,8 +34,8 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top:-20%;
-    left: 19%;
+    top:-7%;
+    left: 24%;
 }
 .lineSecond{
     transition:1s all ease;
@@ -46,8 +46,8 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top:4%;
-    left: 45%;
+    top:12%;
+    left: 40%;
 }
 .lineThird{
     transition:1s all ease;
@@ -58,8 +58,8 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top:-.5%;
-    left: 65%;
+    top:7%;
+    left: 63%;
 }
 .lineFourth{
     transition:1s all ease;
@@ -70,7 +70,7 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top: -10%;
+    top: -5%;
     left: 81%;
 }
 .circleOne{
@@ -103,7 +103,7 @@
 .line{
     background-color: var(--secondary-background-color);
     width: 1px;
-    height: 40%;
+    height: 20%;
 }
 .info{
     color:var(--primary-text-color);
@@ -120,23 +120,23 @@
         transform: rotate(15deg) scale(1.2);
     }
     .lineFirst{
-        top:-23%;
-        left: 18.3%;
+        top:-14%;
+        left: 19%;
     }
     .lineSecond{
-        top:3%;
-        left: 38%;
+        top:7%;
+        left: 36%;
     }
     .lineThird{
-        top:5%;
-        left: 62%;
+        top:18%;
+        left: 55%;
     }
     .lineFourth{
-        top: 10%;
-        left: 81%;
+        top: 20%;
+        left: 75%;
     }
     .info{
-        font-size: 11px;
+        font-size: 11   px;
     }
 }
 @media (max-width: 700px) {
@@ -144,23 +144,23 @@
         transform: rotate(30deg) scale(1.45);
     }
     .lineFirst{
-        top:-23%;
-        left: 18%;
+        top:-28%;
+        left: 13.5%;
     }
     .lineSecond{
-        top:3%;
-        left: 38%;
+        top:7%;
+        left: 32%;
     }
     .lineThird{
-        top:20%;
-        left: 60%;
+        top:28.5%;
+        left: 55%;
     }
     .lineFourth{
-        top: 30%;
-        left: 80%;
+        top: 40%;
+        left: 77%;
     }
     .info{
-        font-size: 8px;
+        font-size: 12px;
     }
     .circleOne{
         right: -55%;
@@ -176,20 +176,20 @@
 
 @media (max-width: 500px) {
     .lineFirst{
-        top:-23%;
-        left: 15%;
+        top:-25%;
+        left: 12.5%;
     }
     .lineSecond{
         top:3%;
         left: 28%;
     }
     .lineThird{
-        top:20%;
+        top:27%;
         left: 49%;
     }
     .lineFourth{
-        top: 30%;
-        left: 70%;
+        top: 40%;
+        left: 75%;
     }
     .circleOne{
         right: -80%;

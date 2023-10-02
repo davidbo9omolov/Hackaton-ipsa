@@ -15,9 +15,10 @@
     margin: 0 20px;
 }
 .footerIcon{
-    width: 5vw;
+    width: 10vw;
     height: auto;
- margin: 0 10px;
+    margin: 0 15px;
+    max-width: 150px;
 }
 .footerSocial{
     fill: #fff;
@@ -52,11 +53,12 @@
 }
 .mobileIcons{
     display: flex;
-    margin-left: 5rem;
+    margin-right: auto;
+    margin-left: 3%;
 }
 .mobileSocials{
     display: flex;
-    margin-right: 8rem;
+    margin-right: 3%;
 }
 @media (max-width: 1000px) {
  .navElem{
@@ -64,12 +66,6 @@
  }
     .navLinks{
         font-size: 12px;
-    }
-    .mobileIcons{
-        margin-left: 0;
-    }
-    .mobileSocials{
-        margin-right: 0;
     }
     .mobileWrapperBlock{
         justify-content: center;
@@ -96,11 +92,4 @@
         width: 25px;
         margin: 0 5px;
     }
-    .mobileIcons{
-        margin-right: 10px;
-    }
-    .mobileSocials{
-        margin-left: 10px;
-    }
-
 }
