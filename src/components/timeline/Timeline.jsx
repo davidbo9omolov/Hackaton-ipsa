@@ -16,7 +16,7 @@ const Timeline = () => {
                     <div className={styles.lineContainer}>
                         <div className={styles.lineFirst}>
                             <h1 className={styles.info}>Реєстрація</h1>
-                            <p className={`${styles.info} opacity-80`}>до 17.11.2023 </p>
+                            <p className={`${styles.info} opacity-80`}>до 17.11 </p>
                             <span className={styles.dot}>
                           </span>
                             <span className={styles.line}>
@@ -25,7 +25,7 @@ const Timeline = () => {
 
                         <div className={styles.lineSecond}>
                             <h1 className={styles.info}>Відбірковий етап</h1>
-                            <p className={`${styles.info} opacity-80`}>  18.11.2023 - 24.11.2023</p>
+                            <p className={`${styles.info} opacity-80`}>  18.11 - 24.11</p>
                             <span className={styles.dot}>
                           </span>
                             <span className={styles.line}>
@@ -34,7 +34,7 @@ const Timeline = () => {
 
                         <div className={styles.lineThird}>
                             <h1 className={styles.info}>Дні лекцій</h1>
-                            <p className={`${styles.info} opacity-80`}>  25.11.2023 - 30.11.2023</p>
+                            <p className={`${styles.info} opacity-80`}>  25.11 - 30.11</p>
                             <span className={styles.dot}>
                           </span>
                             <span className={styles.line}>
@@ -43,7 +43,7 @@ const Timeline = () => {
 
                         <div className={styles.lineFourth}>
                             <h1 className={styles.info} >Фінал</h1>
-                            <p className={`${styles.info} opacity-80`}> 01.12.2023 - 03.12.2023</p>
+                            <p className={`${styles.info} opacity-80`}> 01.12 - 03.12</p>
                             <span className={styles.dot}>
                           </span>
                             <span className={styles.line}>

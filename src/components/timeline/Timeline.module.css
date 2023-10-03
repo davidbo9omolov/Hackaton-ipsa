@@ -34,7 +34,7 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top:-7%;
+    top:-8%;
     left: 24%;
 }
 .lineSecond{
@@ -70,8 +70,8 @@
     justify-content: center;
     height: 100%;
     width: fit-content;
-    top: -5%;
-    left: 81%;
+    top: -3%;
+    left: 83%;
 }
 .circleOne{
     position: absolute;
@@ -121,7 +121,7 @@
     }
     .lineFirst{
         top:-14%;
-        left: 19%;
+        left: 20.1%;
     }
     .lineSecond{
         top:7%;
@@ -129,11 +129,11 @@
     }
     .lineThird{
         top:18%;
-        left: 55%;
+        left: 60%;
     }
     .lineFourth{
         top: 20%;
-        left: 75%;
+        left: 80%;
     }
     .info{
         font-size: 11   px;
@@ -145,7 +145,7 @@
     }
     .lineFirst{
         top:-28%;
-        left: 13.5%;
+        left: 15%;
     }
     .lineSecond{
         top:7%;
@@ -177,7 +177,7 @@
 @media (max-width: 500px) {
     .lineFirst{
         top:-25%;
-        left: 12.5%;
+        left: 14.2%;
     }
     .lineSecond{
         top:3%;
@@ -185,7 +185,7 @@
     }
     .lineThird{
         top:27%;
-        left: 49%;
+        left: 55%;
     }
     .lineFourth{
         top: 40%;

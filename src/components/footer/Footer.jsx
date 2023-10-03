@@ -2,7 +2,7 @@ import {Navbar} from "flowbite-react";
 import NavBar from "../ui/navbar/NavBar";
 import Footer1 from "../../assets/images/Footer1.svg";
 import Footer2 from "../../assets/images/Footer2.png";
-import Footer3 from "../../assets/images/Footer3.png";
+import Footer3 from "../../assets/images/Footer3.svg";
 import circle from "../../assets/images/circle.png";
 import {BiLogoFacebook,BiLogoTelegram,BiLogoYoutube,BiLogoInstagram} from "react-icons/bi";
 

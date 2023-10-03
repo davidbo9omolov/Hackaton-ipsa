@@ -64,11 +64,22 @@
         justify-content: normal;
     }
     .aboutTextBlock{
+        margin-top: 80px;
         width: 100%;
     }
     .aboutImageBlock{
         margin-left: auto;
         margin-right: auto;
         min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .aboutTextBlock{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .aboutImageBlock{
+        display: none;
     }
 }
