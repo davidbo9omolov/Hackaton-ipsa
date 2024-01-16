@@ -25,8 +25,14 @@ const sponsorData = [
         img: SponsorLorem,
         description:'Lorem ipsum dolor sit amet consectetur. Orci consectetur vivamus iaculis suspendisse aliquet sodales. Pulvinar convallis magna volutpat cras posuere consectetur ut. Enim vulputate vitae iaculis urna. Laoreet cursus eu mattis cum dignissim. Massa at sed massa eu adipiscing erat tortor. Aenean a ut viverra purus.'
     }
-
 ]
+
+const mainSponsor = [
+    {
+        img: SponsorLorem,
+        description:'Lorem ipsum dolor sit amet consectetur. Orci consectetur vivamus iaculis suspendisse aliquet sodales. Pulvinar convallis magna volutpat cras posuere consectetur ut. Enim vulputate vitae iaculis urna. Laoreet cursus eu mattis cum dignissim. Massa at sed massa eu adipiscing erat tortor. Aenean a ut viverra purus.'
+    }
+    ]
 const Sponsors = () => {
     return (
         //eslint-ignore-next-line
@@ -36,8 +42,11 @@ const Sponsors = () => {
                     <div className='w-full'>
                         <h1 className={styles.title}>Спонсори</h1>
                     </div>
-                    <span className={styles.centerLine}></span>
                     <div className={styles.sponsorWrap}>
+                        <div className={'w-full mt-[50px]'}>
+                            <img src={SponsorLorem} alt='sponsor'/>
+                            <p className={styles.description}>Lorem ipsum dolor sit amet consectetur. Orci consectetur vivamus iaculis suspendisse aliquet sodales. Pulvinar convallis magna volutpat cras posuere consectetur ut. Enim vulputate vitae iaculis urna. Laoreet cursus eu mattis cum dignissim. Massa at sed massa eu adipiscing erat tortor. Aenean a ut viverra purus.</p>
+                        </div>
                         <div className='flex flex-wrap justify-center'>
                             <SponsorBlocks props={sponsorData}/>
                         </div>

@@ -11,7 +11,7 @@
     position: relative;
     display: flex;
     align-items: flex-start;
-    width: fit-content;
+    width: 55%;
     margin-bottom: 150px;
     flex-wrap: wrap;
     max-width: 1000px;
@@ -43,7 +43,6 @@
     margin-top: 50px;
 }
 .authors{
-    width: 143%;
     color:var(--primary-text-color);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -52,6 +51,7 @@
     line-height: normal;
     margin-top: 15px;
     text-align: right;
+    min-width: 400px;
 }
 .year{
    font-family:'Mak';

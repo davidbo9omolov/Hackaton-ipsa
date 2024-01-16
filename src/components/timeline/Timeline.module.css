@@ -71,7 +71,7 @@
     height: 100%;
     width: fit-content;
     top: -3%;
-    left: 83%;
+    left: 80%;
 }
 .circleOne{
     position: absolute;
@@ -128,15 +128,15 @@
         left: 36%;
     }
     .lineThird{
-        top:18%;
+        top:19%;
         left: 60%;
     }
     .lineFourth{
         top: 20%;
-        left: 80%;
+        left: 81%;
     }
     .info{
-        font-size: 11   px;
+        font-size: 11px;
     }
 }
 @media (max-width: 700px) {
@@ -144,8 +144,8 @@
         transform: rotate(30deg) scale(1.45);
     }
     .lineFirst{
-        top:-28%;
-        left: 15%;
+        top:-25%;
+        left: 14%;
     }
     .lineSecond{
         top:7%;
@@ -156,11 +156,11 @@
         left: 55%;
     }
     .lineFourth{
-        top: 40%;
-        left: 77%;
+        top: 45%;
+        left: 75%;
     }
     .info{
-        font-size: 12px;
+        font-size: 10px;
     }
     .circleOne{
         right: -55%;
@@ -177,7 +177,7 @@
 @media (max-width: 500px) {
     .lineFirst{
         top:-25%;
-        left: 14.2%;
+        left: 12%;
     }
     .lineSecond{
         top:3%;
@@ -185,11 +185,11 @@
     }
     .lineThird{
         top:27%;
-        left: 55%;
+        left: 45%;
     }
     .lineFourth{
         top: 40%;
-        left: 75%;
+        left: 65.5%;
     }
     .circleOne{
         right: -80%;
