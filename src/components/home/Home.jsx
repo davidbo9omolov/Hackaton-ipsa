@@ -4,10 +4,6 @@ import Button from "../ui/button /Button";
 
 
 const Home = () => {
-
-    const data = new Date;
-    const year = data.getFullYear();
-    const slicedYear = year.toString().slice(2, 4);
     return (
         <section className={styles.home} id='home'>
             <div className={styles.mobileTransitionBlock}>
@@ -20,7 +16,7 @@ const Home = () => {
                         <p className={styles.title}>Champ</p>
                         <img src={Arrow} alt="arrow" className={styles.arrow}/>
                     </div>
-                    <span className={`${styles.year} ${styles.title}`}>'{slicedYear}</span>
+                    <span className={`${styles.year} ${styles.title}`}>'24</span>
                 </div>
                 <Button className={`absolute ${styles.registration}`}/>
                 <div className={`flex w-[45%] justify-center flex-col ${styles.marginWrapperMobile}`}>
