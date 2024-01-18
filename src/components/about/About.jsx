@@ -12,7 +12,7 @@ const About = () => {
                     <div className={styles.aboutTextBlock}>
                         <h1 className={styles.title}>Опис хакатону</h1>
                         <p className={styles.description}>
-                            Студрада ІПСА в партнерстві з ІТ-компаніями проводить IASA Champ ‘24, онлайн-змагання для студентів, за напрямом Software Engineering.
+                            Студрада ІПСА в партнерстві з ІТ-компаніями проводить IASA Champ ‘23, онлайн-змагання для студентів, за двома напрямами: Data Science і Software Engineering.
                         </p>
 
                         <p className={styles.description}>

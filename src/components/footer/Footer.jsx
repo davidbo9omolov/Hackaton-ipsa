@@ -28,11 +28,11 @@ const Footer = () => {
             </NavBar>
             <div className={styles.mobileWrapperBlock}>
                 <div className={styles.mobileIcons}>
-                    <a href=""> <img src={Footer3} alt="footer3" className={styles.footerIcon}/></a>
+                    <a href="https://t.me/IASA_Student_Council"> <img src={Footer3} alt="footer3" className={styles.footerIcon}/></a>
                     <a href="https://iasa.kpi.ua/"><img src={Footer1} alt="footer1" className={styles.footerIcon}/></a>
                 </div>
                 <div className={styles.mobileSocials}>
-                   <a href='https://t.me/iasa_champ_23' className='z-10 relative mx-2'><BiLogoTelegram className={styles.footerSocial} /></a>
+                   <a href='https://t.me/iasa_champ_24' className='z-10 relative mx-2'><BiLogoTelegram className={styles.footerSocial} /></a>
                     <a href='https://www.youtube.com/@IASAChannel' className='z-10 relative mx-2'><BiLogoYoutube className={styles.footerSocial}/></a>
                     <a href='https://www.instagram.com/studrada_iasa/' className='z-10 relative mx-2'><BiLogoInstagram className={styles.footerSocial}/></a>
                 </div>
