@@ -28,6 +28,9 @@
     font-weight: 400;
     margin-top: 15px;
 }
+.partnerImg{
+    border-radius: 50%;
+}
 @media only screen and (max-width: 1000px) {
 .partner{
     width:80px;

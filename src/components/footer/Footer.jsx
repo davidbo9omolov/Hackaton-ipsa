@@ -21,8 +21,8 @@ const Footer = () => {
                     <a href="#about" className={styles.navLinks}>Опис змагання</a>
                     <a href="#conditions" className={styles.navLinks}>Умови</a>
                     <a href="#timeline" className={styles.navLinks}>Timeline</a>
-                    <a href="#sponsors" className={styles.navLinks}>Спонсори</a>
-                    <a href="#speakers" className={styles.navLinks}>Спікери</a>
+                    <a href="#sponsors" className={styles.navLinks}>Партнери</a>
+                    {/* <a href="#speakers" className={styles.navLinks}>Спікери</a> */}
                     <a href="#partners" className={styles.navLinks}>Партнери</a>
                 </div>
             </NavBar>
