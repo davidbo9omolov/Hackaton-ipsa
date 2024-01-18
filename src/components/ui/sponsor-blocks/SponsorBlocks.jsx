@@ -1,6 +1,8 @@
 import styles from '../../../components/sponsors/Sponsors.module.css';
 
+
 const SponsorBlocks = ({props}) => {
+
     const elem = props.map((item, index) => {
         return (
             <div className={`${styles.sponsorBlock} p-10`} key={index}>
@@ -18,13 +20,13 @@ const SponsorBlocks = ({props}) => {
                         </>
                     ):null
                 }
-                <div className={styles.imageWrapper}>
-                    <a href={item.link} >
+                <div className={`${styles.imageWrapper} ${item.size}`} >
+                    <a href={item.link} className={'w-fit'}>
                         <div className={styles.image} style={{backgroundImage: `url(${item.img})`}}
                              alt="sponsor img"></div>
                     </a>
                 </div>
-                <p className={styles.description}>{item.description}</p>
+                <p className={styles.description} dangerouslySetInnerHTML={{ __html:item.description}} ></p>
             </div>
         )
     })
