@@ -14,7 +14,6 @@
 }
 .sponsorBlock{
     width: 50%;
-    height: fit-content;
     min-width: 400px;
 }
 .description{
@@ -56,7 +55,7 @@
 }
 .centerLine{
     width: 1px;
-    height: 65%;
+    height: 75%;
     margin-top: 190px;
     background-color: var(--primary-text-color);
     position: absolute;

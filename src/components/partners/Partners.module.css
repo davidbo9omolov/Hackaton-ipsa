@@ -14,7 +14,7 @@
 }
 .partner {
     width: 120px;
-    margin: 50px 0;
+    margin: 50px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +31,7 @@
 .partnerImg{
     border-radius: 50%;
 }
+
 @media only screen and (max-width: 1000px) {
 .partner{
     width:80px;

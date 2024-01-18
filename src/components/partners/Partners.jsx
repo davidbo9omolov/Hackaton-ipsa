@@ -1,4 +1,4 @@
-import {useState,useEffect} from "react";
+import {useState, useEffect} from "react";
 import PartnersLorem from "../../assets/images/InfoPartnersLorem.png";
 import sr_kpi from "../../assets/images/partners/sr_kpi.jpg"
 import fict_online from "../../assets/images/partners/fict_online.jpg"
@@ -20,7 +20,7 @@ import {Carousel} from "flowbite-react";
 import styles from './Partners.module.css';
 
 
-const partners=[
+const partners = [
     {
         img: sr_kpi,
         href: 'https://t.me/sr_kpi',
@@ -116,7 +116,7 @@ const Pertners = () => {
 
     const shouldDisplayCarousel = screenWidth < 1000;
 
-    return(
+    return (
         <section className={styles.partners} id='partners'>
             <div className='flex justify-around py-20'>
                 <div className='flex  w-10/12  flex-col justify-center'>
@@ -126,107 +126,119 @@ const Pertners = () => {
                             shouldDisplayCarousel ?
                                 (
                                     <Carousel className='w-full h-full select-none ' indicators={false}
-
                                               leftControl={screenWidth < 1000 ? true : true}
                                               rightControl={screenWidth < 1000 ? true : true}>
-
-
                                         <div className='w-full h-full flex justify-center'>
-                                            <div className={styles.partner} >
-                                                <a href={partners[0].href}> 
-                                                    <img src={partners[0].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[0].href}>
+                                                    <img src={partners[0].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[0].text}</p>
                                             </div>
-                                            <div className={styles.partner} >
-                                                <a href={partners[1].href}> 
-                                                    <img src={partners[1].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[1].href}>
+                                                    <img src={partners[1].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[1].text}</p>
                                             </div>
-                                            <div className={styles.partner} >
-                                                <a href={partners[2].href}> 
-                                                    <img src={partners[2].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[2].href}>
+                                                    <img src={partners[2].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[2].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-center'>
                                             <div className={styles.partner}>
-                                                <a href={partners[3].href}> 
-                                                    <img src={partners[3].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[3].href}>
+                                                    <img src={partners[3].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[3].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[4].href}> 
-                                                    <img src={partners[4].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[4].href}>
+                                                    <img src={partners[4].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[4].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[5].href}> 
-                                                    <img src={partners[5].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[5].href}>
+                                                    <img src={partners[5].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[5].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-center'>
                                             <div className={styles.partner}>
-                                                <a href={partners[6].href}> 
-                                                    <img src={partners[6].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[6].href}>
+                                                    <img src={partners[6].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[6].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[7].href}> 
-                                                    <img src={partners[7].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[7].href}>
+                                                    <img src={partners[7].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[7].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[8].href}> 
-                                                    <img src={partners[8].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[8].href}>
+                                                    <img src={partners[8].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[8].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-center'>
                                             <div className={styles.partner}>
-                                                <a href={partners[9].href}> 
-                                                    <img src={partners[9].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[9].href}>
+                                                    <img src={partners[9].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[9].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[10].href}> 
-                                                    <img src={partners[10].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[10].href}>
+                                                    <img src={partners[10].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[10].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[11].href}> 
-                                                    <img src={partners[11].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[11].href}>
+                                                    <img src={partners[11].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[11].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-center'>
                                             <div className={styles.partner}>
-                                                <a href={partners[12].href}> 
-                                                    <img src={partners[12].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[12].href}>
+                                                    <img src={partners[12].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[12].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[13].href}> 
-                                                    <img src={partners[13].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[13].href}>
+                                                    <img src={partners[13].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[13].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[14].href}> 
-                                                    <img src={partners[14].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[14].href}>
+                                                    <img src={partners[14].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[14].text}</p>
                                             </div>
@@ -238,101 +250,106 @@ const Pertners = () => {
                                               leftControl={screenWidth > 1000 ? true : true}
                                               rightControl={screenWidth > 1000 ? true : true}>
                                         <div className='w-full h-full flex justify-between'>
-                                            <div className={styles.partner} >
-                                                <a href={partners[0].href}> 
-                                                    <img src={partners[0].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[0].href}>
+                                                    <img src={partners[0].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[0].text}</p>
                                             </div>
-                                            <div className={styles.partner} >
-                                                <a href={partners[1].href}> 
-                                                    <img src={partners[1].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[1].href}>
+                                                    <img src={partners[1].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[1].text}</p>
                                             </div>
-                                            <div className={styles.partner} >
-                                                <a href={partners[2].href}> 
-                                                    <img src={partners[2].img} alt="partner" className={styles.partnerImg}/> 
+                                            <div className={styles.partner}>
+                                                <a href={partners[2].href}>
+                                                    <img src={partners[2].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[2].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[3].href}> 
-                                                    <img src={partners[3].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[3].href}>
+                                                    <img src={partners[3].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[3].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[4].href}> 
-                                                    <img src={partners[4].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[4].href}>
+                                                    <img src={partners[4].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[4].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-between'>
                                             <div className={styles.partner}>
-                                                <a href={partners[5].href}> 
-                                                    <img src={partners[5].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[5].href}>
+                                                    <img src={partners[5].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[5].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[6].href}> 
-                                                    <img src={partners[6].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[6].href}>
+                                                    <img src={partners[6].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[6].text}</p>
                                             </div>
 
                                             <div className={styles.partner}>
-                                                <a href={partners[7].href}> 
-                                                    <img src={partners[7].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[7].href}>
+                                                    <img src={partners[7].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[7].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[8].href}> 
-                                                    <img src={partners[8].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[8].href}>
+                                                    <img src={partners[8].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[8].text}</p>
                                             </div>
 
                                             <div className={styles.partner}>
-                                                <a href={partners[9].href}> 
-                                                    <img src={partners[9].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[9].href}>
+                                                    <img src={partners[9].img} alt="partner" className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[9].text}</p>
                                             </div>
                                         </div>
                                         <div className='w-full h-full flex justify-between'>
                                             <div className={styles.partner}>
-                                                <a href={partners[10].href}> 
-                                                    <img src={partners[10].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[10].href}>
+                                                    <img src={partners[10].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[10].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[11].href}> 
-                                                    <img src={partners[11].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[11].href}>
+                                                    <img src={partners[11].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[11].text}</p>
                                             </div>
 
                                             <div className={styles.partner}>
-                                                <a href={partners[12].href}> 
-                                                    <img src={partners[12].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[12].href}>
+                                                    <img src={partners[12].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[12].text}</p>
                                             </div>
                                             <div className={styles.partner}>
-                                                <a href={partners[13].href}> 
-                                                    <img src={partners[13].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[13].href}>
+                                                    <img src={partners[13].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[13].text}</p>
                                             </div>
 
                                             <div className={styles.partner}>
-                                                <a href={partners[14].href}> 
-                                                    <img src={partners[14].img} alt="partner" className={styles.partnerImg}/> 
+                                                <a href={partners[14].href}>
+                                                    <img src={partners[14].img} alt="partner"
+                                                         className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[14].text}</p>
                                             </div>

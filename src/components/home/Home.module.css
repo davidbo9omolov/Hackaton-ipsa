@@ -9,10 +9,10 @@
     position: relative;
     display: flex;
     align-items: flex-start;
-    width: fit-content;
     margin-bottom: 150px;
     flex-wrap: wrap;
     max-width: 1000px;
+    width: 55%;
 }
 .arrow{
     margin-left: 20px;
@@ -37,7 +37,6 @@
 .blockTextWrapper{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 50px;
 }
 .authors{
