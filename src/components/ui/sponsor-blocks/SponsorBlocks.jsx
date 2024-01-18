@@ -19,8 +19,10 @@ const SponsorBlocks = ({props}) => {
                     ):null
                 }
                 <div className={styles.imageWrapper}>
-                    <div className={styles.image} style={{backgroundImage: `url(${item.img})`}}
-                         alt="sponsor img"></div>
+                    <a href={item.link} >
+                        <div className={styles.image} style={{backgroundImage: `url(${item.img})`}}
+                             alt="sponsor img"></div>
+                    </a>
                 </div>
                 <p className={styles.description}>{item.description}</p>
             </div>
