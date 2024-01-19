@@ -16,7 +16,7 @@ const sponsorDataFirst = [
         link: 'https://macpaw.com/',
         subtitle:'Data Science',
         subtitleTab:'Data Science',
-        description:'Lorem ipsum dolor sit amet consectetur. Orci consectetur vivamus iaculis suspendisse aliquet sodales. Pulvinar convallis magna volutpat cras posuere consectetur ut. Enim vulputate vitae iaculis urna. Laoreet cursus eu mattis cum dignissim. Massa at sed massa eu adipiscing erat tortor. Aenean a ut viverra purus.'
+        description:'Українська IT-компанія, яка розробляє та розповсюджує програмне забезпечення для macOS та iOS.<br><br> MacPaw є розробником CleanMyMac X, Setapp, ClearVPN та інших застосунків. <br><br> Сьогодні продукти MacPaw мають понад 30 мільйонів користувачів по всьому світу. Кожен п\'ятий Mac на планеті має принаймні одну програму MacPaw. <br><br>MacPaw родом з України та пишається цим.'
     },
     {
         img: SponsorAIHouse,
@@ -46,6 +46,12 @@ const sponsorDataSecond = [
         size: ' h-[60px]',
         link: 'https://www.lifecell.ua/uk/',
         description:'Український оператор електронних комунікацій, що надає послуги мобільного зв’язку та передачі даних на базі швидкісного інтернету. <br><br> Компанія розвиває інноваційну екосистему електронної комунікаційної галузі, реалізовуючи проєкти, спрямовані на розвиток «розумного міста», «розумного регіону», покращення безпеки громадян і розгортання мережі IoT (інтернету речей).'
+    },
+    {
+        img: SponsorMacPaw,
+        size: ' h-[60px]',
+        link: 'https://macpaw.com/',
+        description:'Українська IT-компанія, яка розробляє та розповсюджує програмне забезпечення для macOS та iOS.<br><br> MacPaw є розробником CleanMyMac X, Setapp, ClearVPN та інших застосунків. <br><br> Сьогодні продукти MacPaw мають понад 30 мільйонів користувачів по всьому світу. Кожен п\'ятий Mac на планеті має принаймні одну програму MacPaw. <br><br>MacPaw родом з України та пишається цим.'
     },
     ]
 
