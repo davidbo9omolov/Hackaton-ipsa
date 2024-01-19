@@ -26,11 +26,12 @@
     height: 4vh;
 }
 .customHeight{
+    transform: translateY(-5px);
     z-index: -1;
     position: absolute;
     height: 100vh;
     width: 100%;
-    top:-72vh;
+    top:-70vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
