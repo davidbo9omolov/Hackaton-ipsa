@@ -27,7 +27,7 @@ const BurgerMenu = () => {
                             <a onClick={onHandleClick} href="#conditions" className={styles.navLinks}  data-text="Conditions">Умови</a>
                             <a onClick={onHandleClick} href="#timeline" className={styles.navLinks}  data-text="Timeline">Timeline</a>
                             <a onClick={onHandleClick} href="#sponsors" className={styles.navLinks}  data-text="Sponsors">Спонсори</a>
-                            <a onClick={onHandleClick} href="#speakers" className={styles.navLinks}  data-text="Speakers">Спікери</a>
+                            {/*<a onClick={onHandleClick} href="#speakers" className={styles.navLinks}  data-text="Speakers">Спікери</a>*/}
                             <a onClick={onHandleClick} href="#partners" className={styles.navLinks}  data-text="Partners">Партнери</a>
                             <Button className={'relative m-0 text-sm mt-5'}/>
                         </div>
