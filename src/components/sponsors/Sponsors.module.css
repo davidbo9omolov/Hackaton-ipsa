@@ -13,7 +13,7 @@
     text-transform: uppercase;
 }
 .sponsorBlock{
-    width: 50%;
+    width: 70%;
     min-width: 400px;
 }
 .description{
@@ -35,7 +35,7 @@
     width: 100%;
 }
 .image{
-    width: 30%;
+    width: 50%;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
