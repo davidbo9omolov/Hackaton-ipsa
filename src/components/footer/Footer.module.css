@@ -26,7 +26,7 @@
     height: 4vh;
 }
 .customHeight{
-    transform: translateY(-5px);
+    transform: translateY(25px);
     z-index: -1;
     position: absolute;
     height: 100vh;
