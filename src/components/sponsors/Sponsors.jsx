@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import SponsorSoftServe from '../../assets/images/softserve_logo.png';
 import SponsorSolidGate from '../../assets/images/solidgate_logo.png';
 import SponsorLifecell from '../../assets/images/lifecell_logo.png';
@@ -59,6 +59,25 @@ const sponsorDataSecond = [
 const Sponsors = () => {
     const [selected, setSelected] = useState(sponsorDataFirst[0].subtitle);
     const [ballPosition, setBallPosition] = useState({x: 0, y: 0});
+    const [mobile, setMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 1000) {
+                setMobile(true);
+            } else {
+                setMobile(false);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     const onClicked = (event) => {
         if (event.target) {
@@ -89,9 +108,9 @@ const Sponsors = () => {
                     </div>
                     <div className={'flex justify-between w-full'}>
 
-                        <div className={'flex justify-center border rounded-full p-2 relative overflow-hidden w-fit '}>
+                        <div className={` border rounded-full p-2 relative overflow-hidden w-fit ${styles.subtitleTab}`}>
                             <button
-                                className={`text-white ${styles.subtitleTab}`}
+                                className={`text-white `}
                                 onClick={onClicked}>
                                 {sponsorDataFirst[0].subtitle}
                             </button>
@@ -103,8 +122,8 @@ const Sponsors = () => {
                         </div>
 
 
-                        <div className={'flex justify-center border rounded-full p-2 relative overflow-hidden w-fit '}>
-                            <button className={`text-white ${styles.subtitleTab}`}
+                        <div className={` border rounded-full p-2 relative overflow-hidden w-fit ${styles.subtitleTab}`}>
+                            <button className={`text-white `}
                                     onClick={onClicked}>
                                 {sponsorDataSecond[0].subtitle}
                             </button>
@@ -121,18 +140,26 @@ const Sponsors = () => {
                     <span className={styles.centerLine}></span>
                     <div className={styles.sponsorWrap}>
                         <div className='flex justify-center flex-wrap'>
-                            {
+                            {mobile ? (
                                 selected === sponsorDataFirst[0].subtitle ? (
                                     <div className={'flex flex-col items-center w-1/2 min-w-[410px]'}>
-                                        <SponsorBlocks props={sponsorDataFirst}/>
+                                        <SponsorBlocks props={sponsorDataFirst} />
                                     </div>
                                 ) : (
                                     <div className={'flex flex-col items-center w-1/2 min-w-[410px]'}>
-                                        <SponsorBlocks props={sponsorDataSecond}/>
+                                        <SponsorBlocks props={sponsorDataSecond} />
                                     </div>
                                 )
-                            }
-
+                            ) : (
+                                <>
+                                    <div className={'flex flex-col items-center w-1/2 min-w-[410px]'}>
+                                        <SponsorBlocks props={sponsorDataFirst} />
+                                    </div>
+                                    <div className={'flex flex-col items-center w-1/2 min-w-[410px]'}>
+                                        <SponsorBlocks props={sponsorDataSecond} />
+                                    </div>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>
