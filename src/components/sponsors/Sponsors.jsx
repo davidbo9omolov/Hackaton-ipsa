@@ -8,6 +8,7 @@ import SponsorMacPaw from '../../assets/images/macpaw_logo.png';
 
 import styles from './Sponsors.module.css';
 import SponsorBlocks from "../ui/sponsor-blocks/SponsorBlocks";
+import circle from "../../assets/images/circle.png";
 
 
 const sponsorDataFirst = [
@@ -135,7 +136,7 @@ const Sponsors = () => {
                                 {sponsorDataSecond[0].subtitle}
                             </button>
                             <div
-                                className={`absolute bg-white z-10  rounded-full duration-500 ${selected === sponsorDataSecond[0].subtitle ? 'w-[30px] h-[30px] scale-[12]' : ' w-[0px] h-[0px]'}`}
+                                className={`absolute bg-white  rounded-full duration-500 ${selected === sponsorDataSecond[0].subtitle ? 'w-[30px] h-[30px] scale-[12]' : ' w-[0px] h-[0px]'}`}
                                 style={{left: `${ballPosition.x}px`, top: `${ballPosition.y}px`}}
                             >
                             </div>
@@ -171,6 +172,7 @@ const Sponsors = () => {
                     </div>
                 </div>
             </div>
+            <img src={circle} alt="circle" className={styles.circleOne} />
         </section>
     )
 }

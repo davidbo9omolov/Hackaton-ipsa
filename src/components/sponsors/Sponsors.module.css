@@ -60,6 +60,16 @@
     background-color: var(--primary-text-color);
     position: absolute;
 }
+.circleOne{
+    position: absolute;
+    transform: rotate(90deg) scale(1.05);
+    top: 25%;
+    right: -30%;
+    z-index: -1;
+    width: 50vw;
+    height: auto;
+    min-width: 450px;
+}
 @media only screen and (max-width: 1000px) {
     .sponsorBlock{
         margin: 0 50px;
@@ -74,5 +84,15 @@
     }
     .centerLine{
         display: none;
+    }
+    .circleOne{
+        min-width: 400px;
+        right: -35%;
+    }
+}
+@media (max-width: 500px) {
+    .circleOne{
+        min-width: 400px;
+        right: -60%;
     }
 }
