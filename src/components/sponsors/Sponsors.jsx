@@ -115,7 +115,7 @@ const Sponsors = () => {
                                 {sponsorDataFirst[0].subtitle}
                             </button>
                             <div
-                                className={`absolute bg-white w-[30px] h-[30px] rounded-full duration-500 ${selected === sponsorDataFirst[0].subtitle ? ' scale-[7.5]' : ' w-[0px] h-[0px]'}`}
+                                className={`absolute bg-white  rounded-full duration-500 ${selected === sponsorDataFirst[0].subtitle ? 'w-[30px] h-[30px] scale-[7.5]' : ' w-[0px] h-[0px]'}`}
                                 style={{left: `${ballPosition.x}px`, top: `${ballPosition.y}px`}}>
                             </div>
                             <p className={` z-10 duration-500 absolute text-black pointer-events-none ${selected === sponsorDataFirst[0].subtitle ? ' translate-y-[0%] ' : 'translate-y-[200%] '}`}>{sponsorDataFirst[0].subtitle}</p>
@@ -128,7 +128,7 @@ const Sponsors = () => {
                                 {sponsorDataSecond[0].subtitle}
                             </button>
                             <div
-                                className={`absolute bg-white z-10 w-[30px] h-[30px] rounded-full duration-500 ${selected === sponsorDataSecond[0].subtitle ? ' scale-[12]' : ' w-[0px] h-[0px]'}`}
+                                className={`absolute bg-white z-10  rounded-full duration-500 ${selected === sponsorDataSecond[0].subtitle ? 'w-[30px] h-[30px] scale-[12]' : ' w-[0px] h-[0px]'}`}
                                 style={{left: `${ballPosition.x}px`, top: `${ballPosition.y}px`}}
                             >
                             </div>
