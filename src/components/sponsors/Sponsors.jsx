@@ -3,6 +3,7 @@ import SponsorSoftServe from '../../assets/images/softserve_logo.png';
 import SponsorSolidGate from '../../assets/images/solidgate_logo.png';
 import SponsorLifecell from '../../assets/images/lifecell_logo.png';
 import SponsorAIHouse from '../../assets/images/aihouse_logo.png';
+import SponsorSQUAD from '../../assets/images/squad_logo.png';
 import SponsorMacPaw from '../../assets/images/macpaw_logo.png';
 
 import styles from './Sponsors.module.css';
@@ -24,6 +25,12 @@ const sponsorDataFirst = [
         size: ' h-[100px]',
         link: 'https://aihouse.org.ua/',
         description: 'AI HOUSE — це найбільше та найпотужніше АІ-комʼюніті в Україні, в якому учасники обмінюються досвідом і знаннями, здобувають навички, реалізовують нові технологічні та бізнесові ідеї, розвивають AI-індустрію та сприяють народженню продуктових AI-стартапів.'
+    },
+    {
+        img: SponsorSQUAD,
+        size: ' h-[60px]',
+        link: 'https://squad.ua/',
+        description: 'Український R&D центр, який працює з найсучаснішими системами безпеки розумного дому та Інтернету речей. <br><br> Компанія об\'єднує понад 1000 професіоналів різних напрямів та має власні лабораторії, оснащені провідним тестовим та оптичним обладнанням.'
     },
 ]
 

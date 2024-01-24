@@ -27,11 +27,6 @@ const partners = [
         text: 'СР КПІ',
     },
     {
-        img: fict_online,
-        href: 'https://t.me/kpi_fict',
-        text: 'ФІОТonline',
-    },
-    {
         img: fmf,
         href: 'https://t.me/kpi_fmf',
         text: '🇺🇦ФМФ | КПІ🇺🇦',
@@ -235,13 +230,13 @@ const Pertners = () => {
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[13].text}</p>
                                             </div>
-                                            <div className={styles.partner}>
+                                            {/* <div className={styles.partner}>
                                                 <a href={partners[14].href}>
                                                     <img src={partners[14].img} alt="partner"
                                                          className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[14].text}</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Carousel>
                                 ) : (
@@ -345,14 +340,13 @@ const Pertners = () => {
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[13].text}</p>
                                             </div>
-
-                                            <div className={styles.partner}>
+                                            {/* <div className={styles.partner}>
                                                 <a href={partners[14].href}>
                                                     <img src={partners[14].img} alt="partner"
                                                          className={styles.partnerImg}/>
                                                 </a>
                                                 <p className={styles.partnerText}>{partners[14].text}</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </Carousel>
                                 )
