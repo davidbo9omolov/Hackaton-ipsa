@@ -19,7 +19,7 @@ const Home = () => {
                     </div>
                     <span className={`${styles.year} ${styles.title}`}>'{slicedYear}</span>
                 </div>
-                <Button className={`absolute ${styles.registration}`}/>
+                {/*<Button className={`absolute ${styles.registration}`}/>*/}
                 <div className={`flex w-[45%] justify-center flex-col ${styles.marginWrapperMobile}`}>
                     <p className={styles.authors}>made by IASA Student Council</p>
                     <p className={`${styles.authors} mb-20`}>hosted by Igor Sikorsky Kyiv Polytechnic Institute</p>

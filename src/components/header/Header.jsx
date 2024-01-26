@@ -19,7 +19,7 @@ const Header = () => {
                     <a href="#sponsors" className={styles.navLinks}>Партнери</a>
                     {/* <a href="#speakers" className={styles.navLinks}>Спікери</a> */}
                     <a href="#partners" className={styles.navLinks}>Партнери</a>
-                    <Button className={'relative m-0 text-sm mr-4 '}/>
+                    {/*<Button className={'relative m-0 text-sm mr-4 '}/>*/}
                 </div>
             </NavBar>
             <BurgerMenu/>
