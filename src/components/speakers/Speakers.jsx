@@ -30,14 +30,14 @@ const speakerData = [
         flex: 'Justify'
     },
     {
-        img: Tanya,
+        img: Marina,
         name: 'Марина Бойко',
         speciality: 'Project Manager at SoftServe',
         description: 'Я — менеджер-світчер, почала з менеджменту в сфері освіти, і зараз третій рік працюю PM-ом у SoftServe. Дуже люблю те, чим займаюсь і коли мій кіт влазить у камеру на мітингах.',
         link: 'https://www.linkedin.com/in/marina-boiko-38312815a'
     },
     {
-        img: Marina,
+        img: Tanya,
         name: 'Тетяна Соловйова',
         speciality: 'Internal Communication Specialist at MacPaw',
         description: 'Спеціаліст з внутрішньої комунікації з досвідом розробки та впровадження стратегій комунікації. Керую внутрішніми каналами та створюю цікавий контент, щоб кожен у MacPaw знав, що відбувається в компанії.',
