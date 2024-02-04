@@ -15,7 +15,7 @@ function App() {
            <Conditions/>
            <Timeline/>
            <Sponsors/>
-           {/* <Speakers/> */}
+           <Speakers/>
            <Partners/>
        </main>
   );
