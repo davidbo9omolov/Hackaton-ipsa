@@ -22,7 +22,7 @@ const Footer = () => {
                     <a href="#conditions" className={styles.navLinks}>Умови</a>
                     <a href="#timeline" className={styles.navLinks}>Timeline</a>
                     <a href="#sponsors" className={styles.navLinks}>Партнери</a>
-                    {/* <a href="#speakers" className={styles.navLinks}>Спікери</a> */}
+                    <a href="#speakers" className={styles.navLinks}>Спікери</a>
                     <a href="#partners" className={styles.navLinks}>Інфопартнери</a>
                 </div>
             </NavBar>
